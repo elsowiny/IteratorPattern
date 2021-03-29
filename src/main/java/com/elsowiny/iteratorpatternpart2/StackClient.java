@@ -20,9 +20,11 @@ public class StackClient {
         Iterator stackIterator2 = stack2.createIterator();
         System.out.println("Stack 1 contains");
         printStack(stackIterator1);
-        
+
+        System.out.println();
         System.out.println("Stack 2 contains");
-        
+
+        System.out.println();
         printStack(stackIterator2);
     }
     

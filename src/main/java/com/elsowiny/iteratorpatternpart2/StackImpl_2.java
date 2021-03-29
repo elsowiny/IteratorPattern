@@ -45,7 +45,7 @@ public class StackImpl_2 implements Stack {
         System.out.println("Cleared items..");
     }
 
-
+    @Override
     public int getSize(){
         return stack.size();
     }

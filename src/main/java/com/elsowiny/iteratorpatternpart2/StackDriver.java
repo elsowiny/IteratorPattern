@@ -35,10 +35,10 @@ public class StackDriver {
     
   
     myStack2.push(myString);
-    myStack2.push(num1);
-    myStack2.push(num2);
-    myStack2.push(myString);
-    myStack2.push(myString);
+    myStack2.push(2);
+    myStack2.push(3);
+    myStack2.push(4);
+    
  
     int sizeStack2 = myStack2.getSize();
     System.out.println("size of the stack impl1 2 is " + sizeStack2);
